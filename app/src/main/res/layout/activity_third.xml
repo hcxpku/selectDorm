@@ -12,6 +12,7 @@
         android:layout_height="match_parent"
         >
         <TextView
+            android:id="@+id/text"
             android:textSize="20sp"
             android:text="您好！"
             android:layout_width="wrap_content"
@@ -35,27 +36,27 @@
             android:orientation="horizontal">
 
             <Button
-                android:background="@drawable/button1"
+                android:background="@drawable/background2"
                 android:textSize="20sp"
-                android:textColor="#f4f4f1"
+                android:textColor="#000000"
                 android:id="@+id/infro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="查询个认信息" />
 
             <Button
-                android:background="@drawable/button1"
+                android:background="@drawable/background2"
                 android:textSize="20sp"
-                android:textColor="#f4f4f1"
+                android:textColor="#000000"
                 android:id="@+id/bed"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="查询床位数" />
 
             <Button
-                android:background="@drawable/button1"
+                android:background="@drawable/background2"
                 android:textSize="20sp"
-                android:textColor="#f4f4f1"
+                android:textColor="#000000"
                 android:id="@+id/dorm"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
